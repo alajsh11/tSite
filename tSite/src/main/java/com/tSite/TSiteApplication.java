@@ -8,7 +8,7 @@ public class TSiteApplication {
 
 	public static void main(String[] args) {
 		SpringApplication app = new  SpringApplication(TSiteApplication.class);
-		
+		System.out.println("test2");
 		app.run(TSiteApplication.class, args);
 	}
 
